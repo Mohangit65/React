@@ -1,0 +1,77 @@
+.top-menu {
+  width: 100%;
+  height: 60px;
+  background: #f5f7fa;  /* Light modern color */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.top-links {
+  display: flex;
+  align-items: center;
+}
+
+.top-links a {
+  margin-left: 20px;
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.top-links a:hover {
+  color: #0077ff;
+}
+
+/* Profile image */
+.profile-wrapper {
+  position: relative;
+  margin-left: 20px;
+}
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #ccc;
+}
+
+/* Dropdown menu */
+.dropdown {
+  position: absolute;
+  top: 48px;
+  right: 0;
+  background: white;
+  width: 160px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+  padding: 8px 0;
+  z-index: 100;
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #333;
+  font-size: 14px;
+}
+
+.dropdown-item:hover {
+  background: #eef3ff;
+}
+
+/* Logout in red */
+.logout {
+  color: #d9534f;
+  font-weight: bold;
+}
